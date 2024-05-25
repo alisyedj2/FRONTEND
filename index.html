@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harnala E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Harnala E-Commerce</h1>
+        <input type="text" id="searchBar" placeholder="Search for products..." onkeyup="searchProducts()">
+        <p>Total Products: <span id="totalCount">0</span></p>
+        <p>Displayed Products: <span id="displayedCount">0</span></p>
+    </header>
+    <main>
+        <ul class="product-list" id="productList">
+            <!-- Products will be injected here by JavaScript -->
+        </ul>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
